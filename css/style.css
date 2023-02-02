@@ -1,28 +1,73 @@
 /* Reset */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 /* Body e sottosezioni */
 
-body{
+body {
     font-family: 'Fredoka', sans-serif;
 }
 
-.container{
+.container {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 2rem;
 }
-
-.title{
+/* Titolo con descrizione */
+.title {
     color: #e53170;
     text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2em;
+}
+
+.sub-title{
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+/* Colonne e card */
+.row {
+    border: 10px  rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.card {
+    width:calc(100% / 3 - 30px);
+    float: left;
+    height: 100px;
+    background-color: #0f0e17;
+    margin-right: 30px;
+}
+
+.people {
+    height: 100px;
+    float: left;
+}
+
+h3 {
+    display: inline-block;
+    color: white;
+}
+
+.work {
+    color: white;    
+}
+
+.email{
+    color: #38c9ec;
 }
