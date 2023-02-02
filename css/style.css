@@ -1,0 +1,28 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Body e sottosezioni */
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.title{
+    color: #e53170;
+    text-align: center;
+}
